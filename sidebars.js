@@ -50,6 +50,11 @@ const sidebars = {
       label: "Mac",
       items: ["mac/intro"],
     },
+    {
+      type: "category",
+      label: "项目材料",
+      items: ["mac/intro"],
+    },
   ],
 };
 

@@ -6,18 +6,18 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "编程共创文档库",
+  title: "编程共学共创文档库",
   tagline: "Dinosaurs are cool",
-  url: "https://vwumumu.github.io",
-  baseUrl: "/mixchat-docs/",
+  url: "https://github.com/coding-newbies-group",
+  baseUrl: "/programming-co_creation-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "vwumumu", // Usually your GitHub org/user name.
-  projectName: "mixchat-docs", // Usually your repo name.
+  organizationName: "coding-newbies-group", // Usually your GitHub org/user name.
+  projectName: "programming-co_creation-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -84,7 +84,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "编程共创文档库",
+                label: "编程共学共创文档库",
                 to: "/docs/intro",
               },
             ],
@@ -124,7 +124,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MixChat, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Coding Newbies Group. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
