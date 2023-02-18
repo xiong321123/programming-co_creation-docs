@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "编程共学共创文档库",
   tagline: "Dinosaurs are cool",
-  url: "https://github.com/coding-newbies-group",
+  url: "https://github.com/",
   baseUrl: "/programming-co_creation-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -57,21 +57,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "编程共创文档库",
+        title: "共学共创文档库",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
+          href: '/programming-co_creation-docs/docs/intro',
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Docs",
-          },
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Docs",
+          // },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/coding-newbies-group/programming-co_creation-docs",
             label: "GitHub",
             position: "right",
           },

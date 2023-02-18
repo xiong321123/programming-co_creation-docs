@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: 人才盘点
+sidebar_position: 2
 ---
 
 # 人才盘点

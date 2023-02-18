@@ -27,7 +27,7 @@ const sidebars = {
         {
           type: "category",
           label: "准备篇",
-          items: ["windows/p0/example"],
+          items: ["windows/p0/markdown"],
           collapsible: false,
         },
         {
@@ -48,12 +48,31 @@ const sidebars = {
     {
       type: "category",
       label: "Mac",
-      items: ["mac/intro"],
+      items: [
+        {
+          type: "category",
+          label: "准备篇",
+          items: ["mac/p0/example"],
+          collapsible: false,
+        },
+        {
+          type: "category",
+          label: "基础篇",
+          items: ["mac/p1/example"],
+          // collapsible: false,
+        },
+        {
+          type: "category",
+          label: "进阶篇",
+          items: ["mac/p2/example"],
+          // collapsible: false,
+        },
+      ],
     },
     {
       type: "category",
       label: "项目材料",
-      items: ["mac/intro"],
+      items: ["files/contribution", "files/members"],
     },
   ],
 };
