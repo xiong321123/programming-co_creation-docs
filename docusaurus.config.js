@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MixChat Docs",
+  title: "编程共创文档库",
   tagline: "Dinosaurs are cool",
   url: "https://vwumumu.github.io",
   baseUrl: "/mixchat-docs/",
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "MixChat",
+        title: "编程共创文档库",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -84,7 +84,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "MixChat Intro",
+                label: "编程共创文档库",
                 to: "/docs/intro",
               },
             ],
@@ -106,23 +106,23 @@ const config = {
           //     },
           //   ],
           // },
-          {
-            title: "More",
-            items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              // {
-              //   label: "GitHub",
-              //   href: "https://github.com/facebook/docusaurus",
-              // },
-              {
-                label: "About",
-                to: "/docs/about",
-              },
-            ],
-          },
+          // {
+          //   title: "More",
+          //   items: [
+          //     // {
+          //     //   label: "Blog",
+          //     //   to: "/blog",
+          //     // },
+          //     // {
+          //     //   label: "GitHub",
+          //     //   href: "https://github.com/facebook/docusaurus",
+          //     // },
+          //     {
+          //       label: "About",
+          //       to: "/docs/about",
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} MixChat, Inc. Built with Docusaurus.`,
       },
