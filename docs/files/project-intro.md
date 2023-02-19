@@ -39,7 +39,7 @@ sidebar_position: 4
 
 登录Mixin开发者后台的连接：
 
-![image-20230205203538260](C:\Users\vwumumu\Desktop\共学共创编程课2.assets\image-20230205203538260.png)
+![image-20230205203538260](https://raw.githubusercontent.com/coding-newbies-group/programming-co_creation-docs/main/static/img/image-20230205203538260.png)
 
 因为格式的原因，https://developers.mixin.one/dashboard 跟后面的内容形成了粘连，导致直接点击无法访问，其实，有一些计算机知识的人，可以自行解决，会看出来，真正的连接就是https://developers.mixin.one/dashboard
 
@@ -51,7 +51,7 @@ sidebar_position: 4
 
 首页信息和网址信息是使用的创建Mixin机器人可以使用的默认值，我的文章，就直接使用了这个默认值
 
-![image-20230205203917056](C:\Users\vwumumu\Desktop\共学共创编程课2.assets\image-20230205203917056.png)
+![image-20230205203917056](https://raw.githubusercontent.com/coding-newbies-group/programming-co_creation-docs/main/static/img/image-20230205203917056.png)
 
 但是这个默认值在页面上显示为一个浅灰色的内容，如果没看出来，忽视了，以为不需要自己填写，就会发现，创建机器人页面的底部保存按钮不能点。
 
@@ -61,7 +61,7 @@ sidebar_position: 4
 
 代码中，机器人私钥信息后面有个逗号,
 
-![image-20230205204620417](C:\Users\vwumumu\Desktop\共学共创编程课2.assets\image-20230205204620417.png)
+![image-20230205204620417](https://raw.githubusercontent.com/coding-newbies-group/programming-co_creation-docs/main/static/img/image-20230205204620417.png)
 
 因为代码是用JavaScript写的，如果熟悉人会知道，对于一个实例里面的参数需要用逗号分隔，文章中也用注释进行了说明，只替换{ }的内容，但是实事求是的讲，也确实容易忽略，一字不差的阅读，也是确实是有难度的。
 
