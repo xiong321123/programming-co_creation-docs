@@ -1,6 +1,6 @@
 ---
 title: Markdown超简教程
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Markdown超简教程

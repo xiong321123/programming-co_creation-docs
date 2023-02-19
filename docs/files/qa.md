@@ -4,6 +4,9 @@ sidebar_position: 1
 ---
 
 # 常见问题
+## 如何安装Mixin Messenger
+新生有很多限制，所有需要我们使用Mixin Messenger
+[https://channel.mixinbots.com/dl](https://channel.mixinbots.com/dl)
 
 ## 缴费
 
@@ -20,6 +23,10 @@ https://github.com/coding-newbies-group/programming-co_creation-docs
 https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro
 
 ## 飞书视频回放
+[文字稿](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/project-intro)
 
 https://q4awbaq0f2.feishu.cn/minutes/obcnbfssw261y8el5136xn57
 
+## 李骏老师的编程课地址
+
+github地址：[https://github.com/neolee/pilot](https://github.com/neolee/pilot)
