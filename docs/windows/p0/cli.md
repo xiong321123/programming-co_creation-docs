@@ -1,5 +1,5 @@
 ---
-title: 认识命令行
+title: 常用命令行
 sidebar_position: 2
 ---
 
@@ -13,16 +13,22 @@ sidebar_position: 2
 windows大小写**不敏感**
 MAC大小写**敏感**
 
+
+
 ### 路径分隔符
 
 电脑中的文件夹是有层级关系的，在命令行中，表现为路径。
 相邻的层级用一个分隔符分隔。
 在Windows系统中，路径分隔符是反斜杠（\），而在MAC系统中，路径分隔符是正斜杠（/）。
 
+
+
 ### 查看当前路径
-``` sh
+``` powershell
 pwd
 ```
+
+
 ### 相对路径和绝对路径
 
 > 绝对路径：指的是以根目录（根据操作系统不同，根目录也不同）为起点，引用某一文件或目录的完整路径。
@@ -34,24 +40,55 @@ pwd
 `.`表示当前路径；
 `..`表示上一级路径。
 
+
+
 ### 切换路径
 
+```powershell
 cd path
+```
+
+
 
 ### 创建目录
 
+```powershell
 mkdir
+```
+
+
 
 ### 查看路径下的文件
 
+```powershell
 ls
+```
+
+
 
 ### 打开当前目录
 
-open .
+Windows:
 
+```powershell
 start .
+```
 
-## Windows
+Mac:
 
-## MAC
+
+```shell
+open .
+```
+
+
+
+### 设置网络代理环境变量
+
+7890为您自己的网络代理的端口号
+
+```powershell
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+```
+
+

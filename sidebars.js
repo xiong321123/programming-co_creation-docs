@@ -27,7 +27,7 @@ const sidebars = {
         {
           type: "category",
           label: "准备篇",
-          items: ["windows/p0/markdown"],
+          items: ["windows/p0/prep", "windows/p0/cli", "windows/p0/markdown"],
           collapsible: false,
         },
         {
@@ -71,8 +71,26 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "测试区",
+      items: [
+        "test/intro",
+        {
+          type: "category",
+          label: "测试文件夹1",
+          items: ["test/test_folder1/file1"],
+          collapsible: false,
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "项目材料",
-      items: ["files/qa","files/contribution", "files/members","files/project-intro"],
+      items: [
+        "files/qa",
+        "files/contribution",
+        "files/members",
+        "files/project-intro",
+      ],
       collapsible: false,
     },
   ],
