@@ -26,19 +26,25 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "准备篇",
-          items: ["windows/p0/prep", "windows/p0/cli", "windows/p0/markdown"],
+          label: "0.准备篇",
+          items: [
+            "windows/p0/p0-0-prep",
+            "windows/p0/p0-1-cli",
+            "windows/p0/p0-2-markdown",
+            "windows/p0/p0-3-collaborate",
+            "windows/p0/p0-4-issues",
+          ],
           collapsible: false,
         },
         {
           type: "category",
-          label: "基础篇",
+          label: "1.基础篇",
           items: ["windows/p1/example"],
           // collapsible: false,
         },
         {
           type: "category",
-          label: "进阶篇",
+          label: "2.进阶篇",
           items: ["windows/p2/example"],
           // collapsible: false,
         },
@@ -85,12 +91,7 @@ const sidebars = {
     {
       type: "category",
       label: "项目材料",
-      items: [
-        "files/qa",
-        "files/contribution",
-        "files/members",
-        "files/project-intro",
-      ],
+      items: ["files/qa", "files/contribution", "files/project-intro"],
       collapsible: false,
     },
   ],

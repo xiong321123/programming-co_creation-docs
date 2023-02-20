@@ -1,7 +1,11 @@
 ---
-title: 常用命令行
+title: 1.常用命令行
 sidebar_position: 2
 ---
+
+> 教材：无
+>
+> 视频：
 
 # 常用命令行
 
@@ -90,5 +94,4 @@ open .
 ```powershell
 $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 ```
-
 

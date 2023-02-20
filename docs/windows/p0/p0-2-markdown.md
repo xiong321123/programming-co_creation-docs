@@ -1,9 +1,17 @@
 ---
-title: Markdown超简教程
+title: 2.Markdown超简教程
 sidebar_position: 3
 ---
 
+> 教材：无
+>
+> 视频：
+
 # Markdown超简教程
+
+本文以：Typora 进行演示
+
+[https://store.lizhi.io/site/products/id/520](https://store.lizhi.io/site/products/id/520)
 
 语法：命令+空格
 
