@@ -3,15 +3,15 @@ title: 2.Markdown超简教程
 sidebar_position: 3
 ---
 
-> 教材：无
->
-> 视频：
+> [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
 
 # Markdown超简教程
 
-本文以：Typora 进行演示
+本文以：[Typora](https://store.lizhi.io/site/products/id/520)（收费软件） 进行演示
 
-[https://store.lizhi.io/site/products/id/520](https://store.lizhi.io/site/products/id/520)
+后面开始使用VSCode也可以使用VSCode编写Markdown（免费软件）
+
+Ctrl + / 可以快速在Markdown预览模式与源码模式之间切换（视频中后面会有解释）
 
 语法：命令+空格
 
@@ -19,9 +19,15 @@ sidebar_position: 3
 
 \# 一级标题
 
+# 一级标题
+
 \## 二级标题
 
+## 二级标题
+
 \### 三级标题
+
+### 三级标题
 
 直至 六级标题
 

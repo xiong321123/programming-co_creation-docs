@@ -3,9 +3,7 @@ title: 1.常用命令行
 sidebar_position: 2
 ---
 
-> 教材：无
->
-> 视频：
+> [视频](https://www.bilibili.com/video/BV1Z54y1w7H7/?vd_source=4a888db8814702b2062fcaf2575be745)
 
 # 常用命令行
 
