@@ -20,7 +20,7 @@ sidebar_position: 4
 
 注意：以下步骤中使用的所有命令都需要在 `Terminal`（终端）进行操作。
 
-如果你对 `Terminal` 不熟悉，请参考共创文档 [cli 教程](p0-1-cli.md)
+如果你对 `Terminal` 不熟悉，请参考共创文档 [cli 教程](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-1-cli)
 
 #### 步骤 1：验证本地电脑是否存在 SSH 密钥
    1. 列出 `.ssh` 文件夹下的所有文件
