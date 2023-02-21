@@ -59,7 +59,7 @@ const sidebars = {
         {
           type: "category",
           label: "准备篇",
-          items: ["mac/p0/example"],
+          items: ["mac/p0/p0-0-prep", "mac/p0/p0-3-collaborate"],
           collapsible: false,
         },
         {
@@ -75,6 +75,7 @@ const sidebars = {
           // collapsible: false,
         },
       ],
+      collapsible: false,
     },
     {
       type: "category",
