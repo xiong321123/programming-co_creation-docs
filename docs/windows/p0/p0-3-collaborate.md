@@ -1,13 +1,11 @@
 ---
-title: 3.Github协作教程
+title: 3.通过Github共创
 sidebar_position: 4
 ---
 
-> 教材：
->
-> 视频：
+> [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
 
-# Github协作教程(新手可选项)
+# 通过Github共创(新手可选项)
 
 
 ## 安装Git
