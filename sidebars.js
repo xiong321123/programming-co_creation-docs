@@ -58,19 +58,25 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "准备篇",
-          items: ["mac/p0/p0-0-prep", "mac/p0/p0-3-collaborate"],
+          label: "0.准备篇",
+          items: [
+            "mac/p0/p0-0-prep",
+            "mac/p0/p0-1-cli",
+            "mac/p0/p0-2-markdown",
+            "mac/p0/p0-3-collaborate",
+            "mac/p0/p0-4-issues",
+          ],
           collapsible: false,
         },
         {
           type: "category",
-          label: "基础篇",
+          label: "1.基础篇",
           items: ["mac/p1/example"],
           // collapsible: false,
         },
         {
           type: "category",
-          label: "进阶篇",
+          label: "2.进阶篇",
           items: ["mac/p2/example"],
           // collapsible: false,
         },

@@ -5,6 +5,19 @@ sidebar_position: 2
 
 > [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
 
+
+
+:::tip 提示
+本篇内容中的命令也适用于Mac，仅需要注意，文章中如何打开Mac系统中的命令行工具Terminal即可。
+:::
+
+### 如何打开Mac中的命令行
+
+> 请使用Mac的同学补充内容，感谢——Mumu Wu
+
+
+
+
 ### 大小写敏感
 大小写敏感是指大小写是否等价，比如A和a是不是一个东西？
 windows大小写**不敏感**
