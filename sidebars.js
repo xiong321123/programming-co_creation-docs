@@ -33,6 +33,7 @@ const sidebars = {
             "windows/p0/p0-2-markdown",
             "windows/p0/p0-3-collaborate",
             "windows/p0/p0-4-issues",
+            "windows/p0/p0-5-python",
           ],
           collapsible: false,
         },

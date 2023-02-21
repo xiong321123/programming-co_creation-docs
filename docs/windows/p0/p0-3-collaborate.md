@@ -30,7 +30,7 @@ sidebar_position: 4
 
 ## 从自己的Github克隆知识库到本地
 
-找一个文件夹，比如`D:\projects`
+新建一个文件夹，比如`D:\projects`
 
 ```shell
 git clone git@github.com:coding-newbies-group/programming-co_creation-docs.git
