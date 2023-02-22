@@ -62,10 +62,16 @@ sidebar_position: 4
 - 启动 ssh-agent
 
   ```bash
-  # start the ssh-agent in the background
-  $ eval "$(ssh-agent -s)"
-  > Agent pid 59566
+  # 以管理员身份打开 PowerShell, 把 ssh-agent 服务改为手动启动
+  > Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  # 检查是否修改成功
+  > Get-Service ssh-agent | Select StartType
+  # 启动 ssh-agent 到后台
+  > Start-Service ssh-agent
+  # 检查一下服务是不是已经开始运行了
+  > Get-Service ssh-agent
   ```
+  ![Start_ssh-agent](https://assets.quill.im/aih7lc92mkduporsuvnlt0mmule7)
 
 - 将你的 SSH 私钥添加到 ssh-agent。如果你用不同的名字创建了你的密钥，或者你正在添加一个有不同名字的现有密钥，请将命令中的id_ed25519替换为你的私钥文件的名字。
 
