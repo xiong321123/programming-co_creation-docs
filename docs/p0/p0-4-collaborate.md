@@ -19,20 +19,99 @@ sidebar_position: 4
 
 ## 1.安装Git
 
-### 1.1. Windows
-
-访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
+**方式一**：访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
 
 ![83784115-1e37-494a-bc8c-19b80dfe2303](./p0-4-collaborate.assets/83784115-1e37-494a-bc8c-19b80dfe2303.png)
 
+**方式二**：如果已经安装了 scoop 的话，可以直接在 PowerShell 里使用命令：`scoop install git`.
+
+#### 检查是否成功安装
 
 
-### 1.2.Mac
+命令行如果输入`git --version`后有返回 git 版本，表示安装成功
+
+![gitVersion](https://assets.quill.im/g1wnnoy560ywst8xcq3ik4nqgrc8)
 
 ## 2.为Github配置SSH登录
 
 ### 2.1.Windows
 
+### Ⅰ 为什么要为 Github 配置 SSH 登录？
+
+为了可以使用 SSH 更方便地从 Github 克隆仓库到本地磁盘，需要在 Github 配置 SSH key.
+
+### Ⅱ 需要做什么？
+
+需要使用 SSH (Secure Shell) 在本地生成密钥对，然后把公钥粘贴到 Github 做配对。
+
+### Ⅲ 怎么操作？
+
+#### 生成新的 SSH key.
+
+- 打开 Powershell
+
+- 粘贴下面的文字，替换成你的GitHub电子邮件地址:
+
+  `$ ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+  当你被提示 "输入一个保存密钥的文件 "时，你可以按回车键来接受默认的文件位置。请注意，如果你以前创建过 SSH 密钥，ssh-keygen 可能会要求你重写另一个密钥，在这种情况下，我们建议创建一个自定义命名的 SSH 密钥。要做到这一点，请输入默认的文件位置，并用你的自定义密钥名称替换id_ssh_keyname。
+
+- 在提示符下，输入一个安全口令。
+
+#### 添加你的 SSH key 到 ssh-agent
+
+- 启动 ssh-agent
+
+  ```bash
+  # 以管理员身份打开 PowerShell, 把 ssh-agent 服务改为手动启动
+  > Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  # 检查是否修改成功
+  > Get-Service ssh-agent | Select StartType
+  # 启动 ssh-agent 到后台
+  > Start-Service ssh-agent
+  # 检查一下服务是不是已经开始运行了
+  > Get-Service ssh-agent
+  ```
+  ![Start_ssh-agent](https://assets.quill.im/aih7lc92mkduporsuvnlt0mmule7)
+
+- 将你的 SSH 私钥添加到 ssh-agent。如果你用不同的名字创建了你的密钥，或者你正在添加一个有不同名字的现有密钥，请将命令中的id_ed25519替换为你的私钥文件的名字。
+
+  `$ ssh-add ~/.ssh/id_ed25519`
+
+- 添加 SSH key 到你的 Github 账号
+
+  - 首先复制 SSH public key 到剪贴板
+
+    如果你的SSH公钥文件的名称与示例代码不同，请修改文件名以符合你当前的设置。在复制你的密钥时，不要添加任何换行或空白。
+
+    ```bash
+    $ clip < ~/.ssh/id_ed25519.pub
+    # Copies the contents of the id_ed25519.pub file to your clipboard
+    ```
+
+  - 在 Github 任意页面右上角，点击你的头像，然后点 Settings（设置）
+
+    ![settings](https://assets.quill.im/ykod6mclu76k4g6qbmgo2dmn04fz)
+
+  - 在侧边栏选择 Access（访问），点 **SSH and GPG keys**.
+
+  - 点 **New SSH key** 或者 **Add SSH key**.
+
+    ![NewSSHkey](https://assets.quill.im/xgotwdq34jr6dney3s1yoplwnyzk)
+
+  - 在 "Title" 里，为新 key 添加描述
+
+  - 选择 key 类型（通常保持默认的 authentication 就好）
+
+  - 把你的 public key 粘贴到 "Key" 区域里
+
+    ![KeyPaste](https://assets.quill.im/w3s8faevo100a21moo7rqq9r6nrz)
+
+  - 点击 **Add SSH key**.
+
+    ![AddSSHkey](https://assets.quill.im/gdlkot8oob3g86czq14r3y8sw8zr)
+
+  - 如果有提示，请确认你在GitHub上的账户访问权限。
 
 ### 2.2.Mac
 
