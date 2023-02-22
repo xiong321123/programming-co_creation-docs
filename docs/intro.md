@@ -11,11 +11,12 @@ sidebar_position: 1
 ## 课程大纲
 
 ### 准备篇
-- 0-1.[前期准备](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-0-prep)
-- 0-2.[通过Github提交问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-4-issues) | [视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-3.[Markdown超简教程](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-2-markdown)（新手非必须） | [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-4.[通过Github共创](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-5.[使用命令行](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-1-cli) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-1.[前期准备](./p0/p0-1-prep.md)
+- 0-2.[通过Github提交问题](./p0/p0-2-issues.md) | [视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-3.[Markdown超简教程](./p0/p0-3-markdown.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-4.[通过Github共创](./p0/p0-4-collaborate.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-5.[使用命令行](./p0/p0-5-cli.md) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-6.[第一段Python代码](./p0/p0-6-python.md)
 
 
 ### 基础篇
