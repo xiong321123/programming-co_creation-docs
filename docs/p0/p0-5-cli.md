@@ -14,7 +14,7 @@ sidebar_position: 5
 
 按键盘上的“Win”键，或点击Windows任务栏的“开始”按钮，然后输入powershell，即可找到Windows PowerShell。
 
-![image-20230222131349935](D:\projects\programming-co_creation-docs\docs\p0\p0-5-cli.assets\image-20230222131349935.png)
+![image-20230222131349935](p0-5-cli.assets/image-20230222131349935.png)
 
 普通权限和管理员权限：
 
@@ -22,7 +22,7 @@ sidebar_position: 5
 
 右键点击，选择以管理员身份运行，是以管理员权限打开，很多时候在命令行遇到“Access”，“Permission”等报错信息，是因为命令行权限不够，此时，需要以管理员权限打开命令行，重新执行需要执行的命令。
 
-![image-20230222131502308](D:\projects\programming-co_creation-docs\docs\p0\p0-5-cli.assets\image-20230222131502308.png)
+![image-20230222131502308](p0-5-cli.assets/image-20230222131502308.png)
 
 ### Mac
 
