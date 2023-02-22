@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 ## 协作流程
 
-![image-20230222134055078](intro.assets/image-20230222134055078.png)
+![image-20230222135503259](intro.assets/image-20230222135503259.png)
 
 快速入口：[文档库](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro/) | [仓库](https://github.com/coding-newbies-group/programming-co_creation-docs) | [Github Issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues) | [共学共创进度表](https://docs.qq.com/sheet/DYkdIT0hKbW1tWmhE?tab=BB08J2) | [项目看板](https://github.com/orgs/coding-newbies-group/projects/1) | [常见问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/qa)
 
