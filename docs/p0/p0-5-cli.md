@@ -1,5 +1,5 @@
 ---
-title: 5.常用命令行
+title: 5.使用命令行
 sidebar_position: 5
 ---
 
@@ -8,9 +8,9 @@ sidebar_position: 5
 [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
 :::
 
-## 打开命令行
+## 1.打开命令行
 
-### Windows
+### 1.1.Windows
 
 按键盘上的“Win”键，或点击Windows任务栏的“开始”按钮，然后输入powershell，即可找到Windows PowerShell。
 
@@ -24,18 +24,18 @@ sidebar_position: 5
 
 ![image-20230222131502308](p0-5-cli.assets/image-20230222131502308.png)
 
-### Mac
+### 1.2.Mac
 
 
 
-## 大小写敏感
+## 2.大小写敏感
 大小写敏感是指大小写是否等价，比如A和a是不是一个东西？
 windows大小写**不敏感**
 MAC大小写**敏感**
 
 
 
-## 路径分隔符
+## 3.路径分隔符
 
 电脑中的文件夹是有层级关系的，在命令行中，表现为路径。
 相邻的层级用一个分隔符分隔。
@@ -43,7 +43,7 @@ MAC大小写**敏感**
 
 
 
-## 切换路径
+## 4.切换路径
 
 ```powershell
 cd path
@@ -51,7 +51,7 @@ cd path
 
 
 
-## 创建目录
+## 5.创建目录
 
 ```powershell
 mkdir
@@ -59,20 +59,20 @@ mkdir
 
 
 
-## 查看路径下的文件
+## 6.查看路径下的文件
 
 ```powershell
 ls
 ```
 
-## 查看当前路径
+## 7.查看当前路径
 ``` powershell
 pwd
 ```
 
 
 
-## 打开当前目录
+## 8.打开当前目录
 
 Windows:
 
@@ -89,7 +89,7 @@ open .
 
 
 
-## 相对路径和绝对路径
+## 9.相对路径和绝对路径
 
 > 绝对路径：指的是以根目录（根据操作系统不同，根目录也不同）为起点，引用某一文件或目录的完整路径。
 > 

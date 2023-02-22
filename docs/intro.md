@@ -17,7 +17,7 @@ sidebar_position: 1
 
 0-4.[通过Github共创](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
 
-0-5.[常用命令行](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-1-cli) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+0-5.[使用命令行](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-1-cli) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
 
 
 

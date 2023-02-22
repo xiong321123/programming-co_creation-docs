@@ -1,11 +1,14 @@
 ---
-title: 3.通过Github共创
+title: 4.通过Github共创
 sidebar_position: 4
 ---
 
 :::tip 提示
 
 本内容为**新手可选项**，需要参与内容共创的人，该内容是必选项，新手可以在后续逐步上手后，回过头来再学习此部分内容，另外，本内容目前处于早期草稿阶段，需要共创参与者使用与反馈。
+
+注意：以下步骤中使用的所有命令都需要在 `Terminal`（终端）进行操作。
+如果你对 `Terminal` 不熟悉，请参考共创文档 [使用命令行](./p0-5-cli.md)
 :::
 
 :::info 信息
@@ -14,7 +17,7 @@ sidebar_position: 4
 :::
 
 
-## 安装Git
+## 1.安装Git
 
 [https://git-scm.com/](https://git-scm.com/)
 
@@ -22,13 +25,12 @@ sidebar_position: 4
 
 
 
-## 为Github配置SSH登录
+## 2.为Github配置SSH登录
 
-### Mac
+### 2.1.Windows
 
-注意：以下步骤中使用的所有命令都需要在 `Terminal`（终端）进行操作。
 
-如果你对 `Terminal` 不熟悉，请参考共创文档 [cli 教程](./p0-5-cli.md)
+### 2.2.Mac
 
 #### 步骤 1：验证本地电脑是否存在 SSH 密钥
    1. 列出 `.ssh` 文件夹下的所有文件
@@ -117,13 +119,13 @@ sidebar_position: 4
 #### 参考
 > Github 官方文档：[connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-## 将知识库Fork到自己的GitHub账户
+## 3.将知识库Fork到自己的GitHub账户
 
 
 
 
 
-## 从自己的Github克隆知识库到本地
+## 4.从自己的Github克隆知识库到本地
 
 新建一个文件夹，比如`D:\projects`
 
@@ -133,23 +135,23 @@ git clone git@github.com:coding-newbies-group/programming-co_creation-docs.git
 
 
 
-## 在本地修改内容
+## 5.在本地修改内容
+
+### 5.1.知识库结构介绍——Docs文件夹
 
 
 
-## 将本地内容提交到自己的Github知识库
+### 5.2.知识库结构介绍——sidebars.js文件
 
 
 
-## 将自己的修改提交到知识库（Pull Request）
+## 6.将本地内容提交到自己的Github知识库
 
 
 
-## 知识库结构介绍——Docs文件夹
+## 7.将自己的修改提交到知识库（Pull Request）
 
 
-
-## 知识库结构介绍——sidebars.js文件
 
 
 

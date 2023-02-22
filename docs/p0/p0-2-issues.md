@@ -9,8 +9,6 @@ sidebar_position: 2
 :::
 
 
-# 通过Github提交问题
-
 将课程大纲中的标题作为Github Issues的开始，然后再后面添加一句话问题描述。
 
 [https://github.com/coding-newbies-group/programming-co_creation-docs/issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues)

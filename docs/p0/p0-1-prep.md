@@ -1,9 +1,8 @@
 ---
-title: 0.前期准备
+title: 1.前期准备
 sidebar_position: 1
 ---
 
-# 前期准备
 
 * 电脑：Windows 或 Mac
 
