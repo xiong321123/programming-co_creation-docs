@@ -6,7 +6,8 @@ sidebar_position: 1
 
 ![image-20230222140000563](intro.assets/image-20230222140000563.png)
 
-快速入口：[文档库](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro/) | [仓库](https://github.com/coding-newbies-group/programming-co_creation-docs) | [Github Issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues) | [共学共创进度表](https://docs.qq.com/sheet/DYkdIT0hKbW1tWmhE?tab=BB08J2) | [项目看板](https://github.com/orgs/coding-newbies-group/projects/1) | [常见问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/qa)
+## 快速入口
+[文档库](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro/) | [仓库](https://github.com/coding-newbies-group/programming-co_creation-docs) | [Github Issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues) | [共学共创进度表](https://docs.qq.com/sheet/DYkdIT0hKbW1tWmhE?tab=BB08J2) | [项目看板](https://github.com/orgs/coding-newbies-group/projects/1) | [常见问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/qa)
 
 ## 课程大纲
 
@@ -20,6 +21,11 @@ sidebar_position: 1
 
 
 ### 基础篇
+
+:::tip 提示
+下面的内容原项目仓库为：https://github.com/neolee/pilot
+我已将教材转化为Markdown格式
+:::
 
 * [第一章 理解编程语言](./pilot/p1-1-understanding-programming-languages.md)
 * [第二章 程序的基本结构（一）：值与变量](./pilot/p1-2-structure-1.md)
