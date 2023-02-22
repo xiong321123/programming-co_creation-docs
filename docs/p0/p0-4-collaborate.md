@@ -36,47 +36,51 @@ sidebar_position: 4
 
 ### 2.1.Windows
 
-### Ⅰ 为什么要为 Github 配置 SSH 登录？
+#### Ⅰ 为什么要为 Github 配置 SSH 登录？
 
 为了可以使用 SSH 更方便地从 Github 克隆仓库到本地磁盘，需要在 Github 配置 SSH key.
 
-### Ⅱ 需要做什么？
+#### Ⅱ 需要做什么？
 
 需要使用 SSH (Secure Shell) 在本地生成密钥对，然后把公钥粘贴到 Github 做配对。
 
-### Ⅲ 怎么操作？
+#### Ⅲ 怎么操作？
 
-#### 生成新的 SSH key.
+##### 生成新的 SSH key.
 
 - 打开 Powershell
 
 - 粘贴下面的文字，替换成你的GitHub电子邮件地址:
 
-  `$ ssh-keygen -t ed25519 -C "your_email@example.com"`
+  ```powershell
+  ssh-keygen -t ed25519 -C "your_email@example.com"
+  ```
 
   当你被提示 "输入一个保存密钥的文件 "时，你可以按回车键来接受默认的文件位置。请注意，如果你以前创建过 SSH 密钥，ssh-keygen 可能会要求你重写另一个密钥，在这种情况下，我们建议创建一个自定义命名的 SSH 密钥。要做到这一点，请输入默认的文件位置，并用你的自定义密钥名称替换id_ssh_keyname。
 
 - 在提示符下，输入一个安全口令。
 
-#### 添加你的 SSH key 到 ssh-agent
+##### 添加你的 SSH key 到 ssh-agent
 
 - 启动 ssh-agent
 
   ```bash
   # 以管理员身份打开 PowerShell, 把 ssh-agent 服务改为手动启动
-  > Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
   # 检查是否修改成功
-  > Get-Service ssh-agent | Select StartType
+  Get-Service ssh-agent | Select StartType
   # 启动 ssh-agent 到后台
-  > Start-Service ssh-agent
+  Start-Service ssh-agent
   # 检查一下服务是不是已经开始运行了
-  > Get-Service ssh-agent
+  Get-Service ssh-agent
   ```
   ![Start_ssh-agent](https://assets.quill.im/aih7lc92mkduporsuvnlt0mmule7)
 
 - 将你的 SSH 私钥添加到 ssh-agent。如果你用不同的名字创建了你的密钥，或者你正在添加一个有不同名字的现有密钥，请将命令中的id_ed25519替换为你的私钥文件的名字。
 
-  `$ ssh-add ~/.ssh/id_ed25519`
+  ```powershell
+  ssh-add ~/.ssh/id_ed25519
+  ```
 
 - 添加 SSH key 到你的 Github 账号
 
@@ -84,8 +88,8 @@ sidebar_position: 4
 
     如果你的SSH公钥文件的名称与示例代码不同，请修改文件名以符合你当前的设置。在复制你的密钥时，不要添加任何换行或空白。
 
-    ```bash
-    $ clip < ~/.ssh/id_ed25519.pub
+    ```powershell
+    clip < ~/.ssh/id_ed25519.pub
     # Copies the contents of the id_ed25519.pub file to your clipboard
     ```
 
