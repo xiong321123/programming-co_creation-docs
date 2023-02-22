@@ -1,9 +1,13 @@
 ---
-title: 4.通过Github提交问题
-sidebar_position: 5
+title: 2.通过Github提交问题
+sidebar_position: 2
 ---
 
-> [视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::info 信息
+
+[视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::
+
 
 # 通过Github提交问题
 

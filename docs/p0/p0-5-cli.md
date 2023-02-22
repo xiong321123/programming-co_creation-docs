@@ -1,9 +1,12 @@
 ---
-title: 1.常用命令行
-sidebar_position: 2
+title: 5.常用命令行
+sidebar_position: 5
 ---
 
-> [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::info 信息
+
+[视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::
 
 ### 大小写敏感
 大小写敏感是指大小写是否等价，比如A和a是不是一个东西？

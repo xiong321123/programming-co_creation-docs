@@ -1,23 +1,24 @@
 ---
-title: 2.Markdown超简教程
+title: 3.Markdown超简教程
 sidebar_position: 3
 ---
 
-> [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
 
 :::tip 提示
-虽然以Windows版Typora作为演示，本篇内容中的依然适用于Mac以及其他支持Markdown的编辑器
+
+本内容为**新手可选项**，但是，强烈推荐学习一下，我们的文档都是用Markdown语法书写的，可以非常容易的形成格式统一，美观的内容，其实内容很简单，刚开始会需要记忆语法，随着使用率越来越高，会很容易记住。
 :::
 
-# Markdown超简教程
+:::info 信息
+
+[视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::
 
 本文以：[Typora](https://store.lizhi.io/site/products/id/520)（收费软件） 进行演示
 
 后面开始使用VSCode也可以使用VSCode编写Markdown（免费软件）
 
 Ctrl + / 可以快速在Markdown预览模式与源码模式之间切换（视频中后面会有解释）
-
-语法：命令+空格
 
 ## 1.标题
 

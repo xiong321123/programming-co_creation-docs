@@ -3,9 +3,15 @@ title: 3.通过Github共创
 sidebar_position: 4
 ---
 
-> [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::tip 提示
 
-# 通过Github共创(新手可选项)
+本内容为**新手可选项**，需要参与内容共创的人，该内容是必选项，新手可以在后续逐步上手后，回过头来再学习此部分内容，另外，本内容目前处于早期草稿阶段，需要共创参与者使用与反馈。
+:::
+
+:::info 信息
+
+[视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::
 
 
 ## 安装Git
@@ -18,9 +24,11 @@ sidebar_position: 4
 
 ## 为Github配置SSH登录
 
+### Mac
+
 注意：以下步骤中使用的所有命令都需要在 `Terminal`（终端）进行操作。
 
-如果你对 `Terminal` 不熟悉，请参考共创文档 [cli 教程](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/windows/p0/p0-1-cli)
+如果你对 `Terminal` 不熟悉，请参考共创文档 [cli 教程](./p0-5-cli.md)
 
 #### 步骤 1：验证本地电脑是否存在 SSH 密钥
    1. 列出 `.ssh` 文件夹下的所有文件
@@ -44,13 +52,13 @@ sidebar_position: 4
         ```
         &emsp;
    2. 确定密钥保存的目录（这里可以选择直接回车，保存到默认的位置）
-        ![ssh-keygen](./p0-3-collaborate.assets/p3-3-ssh-keygen.png)
+        ![ssh-keygen](./p0-4-collaborate.assets/p3-3-ssh-keygen.png)
         &emsp;
    3. 输入密码（可以选择直接回车，写密码需要写两遍）
-        ![passphrase](./p0-3-collaborate.assets/p3-3-passphrase.png)
+        ![passphrase](./p0-4-collaborate.assets/p3-3-passphrase.png)
         &emsp;
         按下两次回车之后，就在默认路径下生成了文件，分别是私钥和公钥。
-        ![public&private-key](./p0-3-collaborate.assets/p3-3-public&private%20key.png)
+        ![public&private-key](./p0-4-collaborate.assets/p3-3-public&private%20key.png)
    4. 可以使用 `ls -al ~/.ssh` 查看在`.ssh`目录下生成的两个文件。
 
 #### 步骤 3：将 SSH 密钥添加到 ssh-agent
@@ -65,7 +73,7 @@ sidebar_position: 4
       如果你在 步骤 2 中输入了密码，这里需要重新输入一次。
       &emsp;
       没有密码的话，会出现如下提示，说明已经成功添加：
-      ![identity-added](./p0-3-collaborate.assets/p3-3-identity-added.png)
+      ![identity-added](./p0-4-collaborate.assets/p3-3-identity-added.png)
       
 #### 步骤 4：复制 SSH 密钥
    1. 打开 id_rsa.pub 文件
@@ -73,7 +81,7 @@ sidebar_position: 4
       cat ~/.ssh/id_rsa.pub
       ```
       结果如下图：
-      ![rsa_key_pub](./p0-3-collaborate.assets/p3-3-rsa_key_pub.png)
+      ![rsa_key_pub](./p0-4-collaborate.assets/p3-3-rsa_key_pub.png)
       &emsp;
    2. 复制出现的文件内容（注意：不要多复制任何空格或换行符）
       PS：也可以通过下面命令行输入命令的方式，将 `~/.ssh/id_rsa.pub` 文件中的内容复制到系统剪切板：
@@ -83,15 +91,15 @@ sidebar_position: 4
 
 #### 步骤 5：添加到你的 Github 账号
    1. 登陆你的 Github 账号，在页面右上角找到 Settings(设置)
-       ![settings](./p0-3-collaborate.assets/p3-3-settings.png)
+       ![settings](./p0-4-collaborate.assets/p3-3-settings.png)
       &emsp;
    2. 在左边的菜单栏中找到 SSH 的设置
-       ![ssh](./p0-3-collaborate.assets/p3-3-ssh_and_gpg_keys.png)
+       ![ssh](./p0-4-collaborate.assets/p3-3-ssh_and_gpg_keys.png)
       &emsp;
    3. 点击上图中右边箭头所指向的 `new SSH key`
       &emsp;
    4. 按如下图所示，将 SSH 密钥粘贴到输入框中
-       ![add_ssh_key](./p0-3-collaborate.assets/p3-3-add_ssh_key.png)
+       ![add_ssh_key](./p0-4-collaborate.assets/p3-3-add_ssh_key.png)
 #### 步骤 6：测试 SSH 连接
    1. 输入以下命令，该命令会尝试 ssh 到 GitHub
       ```bash
