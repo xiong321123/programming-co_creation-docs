@@ -61,7 +61,7 @@ const sidebars = {
     {
       type: "category",
       label: "项目材料",
-      items: ["files/qa", "files/contribution", "files/project-intro"],
+      items: ["files/qa"],
       collapsible: false,
     },
   ],

@@ -37,7 +37,7 @@ https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro
 
 ## 飞书视频回放
 
-[文字稿](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/project-intro)
+[文字稿](./qa.md)
 
 https://q4awbaq0f2.feishu.cn/minutes/obcnbfssw261y8el5136xn57
 
