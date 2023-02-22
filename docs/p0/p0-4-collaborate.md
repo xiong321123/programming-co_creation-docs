@@ -19,11 +19,15 @@ sidebar_position: 4
 
 ## 1.安装Git
 
-[https://git-scm.com/](https://git-scm.com/)
+### 1.1. Windows
 
-命令行如果输入`git`有返回，表示安装成功
+访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
+
+![83784115-1e37-494a-bc8c-19b80dfe2303](D:\projects\programming-co_creation-docs\docs\p0\p0-4-collaborate.assets\83784115-1e37-494a-bc8c-19b80dfe2303.png)
 
 
+
+### 1.2.Mac
 
 ## 2.为Github配置SSH登录
 
