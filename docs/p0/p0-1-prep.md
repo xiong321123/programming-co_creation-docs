@@ -35,4 +35,4 @@ sidebar_position: 1
 
 ## 8.了解共学共创流程和工具
 
-  待补充
+  [视频](https://www.bilibili.com/video/BV1Hx4y1F7pH/?vd_source=4a888db8814702b2062fcaf2575be745)

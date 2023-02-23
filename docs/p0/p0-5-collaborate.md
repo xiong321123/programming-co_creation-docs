@@ -214,7 +214,7 @@ sidebar_position: 5
 
 3. 进入到`programming-co_creation-docs`文件夹，查看文件夹下有哪些文件，到这，这一步就可以完成了。
 
-   ![image-20230223094352798](./p0-5-collaborate.assets/image-20230223094352798.png)
+   ![image-20230223154356747](./p0-5-collaborate.assets/image-20230223154356747.png)
 
    
 
