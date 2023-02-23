@@ -9,8 +9,6 @@ sidebar_position: 1
 
 ![image-20230222140000563](intro.assets/image-20230222140000563.png)
 
-
-
 ## 课程大纲
 
 ### 准备篇
