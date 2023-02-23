@@ -1,6 +1,6 @@
 ---
-title: 5.使用命令行
-sidebar_position: 5
+title: 4.使用命令行
+sidebar_position: 4
 ---
 
 :::info 信息
@@ -14,7 +14,7 @@ sidebar_position: 5
 
 按键盘上的“Win”键，或点击Windows任务栏的“开始”按钮，然后输入powershell，即可找到Windows PowerShell。
 
-![image-20230222131349935](p0-5-cli.assets/image-20230222131349935.png)
+![image-20230222131349935](./p0-4-cli.assets/image-20230222131349935.png)
 
 普通权限和管理员权限：
 
@@ -22,7 +22,7 @@ sidebar_position: 5
 
 右键点击，选择以管理员身份运行，是以管理员权限打开，很多时候在命令行遇到“Access”，“Permission”等报错信息，是因为命令行权限不够，此时，需要以管理员权限打开命令行，重新执行需要执行的命令。
 
-![image-20230222131502308](p0-5-cli.assets/image-20230222131502308.png)
+![image-20230222131502308](./p0-4-cli.assets/image-20230222131502308.png)
 
 ### 1.2.Mac
 
@@ -34,15 +34,15 @@ macOS系统本身自带terminal命令行界面，参考李骏老师的编程课 
 
 ##### 在macOS按⌘command+空格 键调出系统搜索框（大名叫Spotlight）
 
-![macOS-spotlight](p0-5-cli.assets/macOS-spotlight.png)
+![macOS-spotlight](./p0-4-cli.assets/macOS-spotlight.png)
 
 ##### 输入terminal后，按enter回车键
 
-![macOS-terminal-enter](p0-5-cli.assets/macOS-terminal-enter.png)
+![macOS-terminal-enter](./p0-4-cli.assets/macOS-terminal-enter.png)
 
 ##### 这就是macOS自带的terminal终端工具
 
-![macOS-terminal-window](p0-5-cli.assets/macOS-terminal-window.png)
+![macOS-terminal-window](./p0-4-cli.assets/macOS-terminal-window.png)
 
 
 
@@ -139,15 +139,15 @@ open .
 ##### iTerm2的下载安装
 
 ###### 从官网下载安装[iTerm2](https://iterm2.com/),在官网点击download会下载一个zip文件
-![iTerm2-download](p0-5-cli.assets/iTerm2-download.png)
+![iTerm2-download](./p0-4-cli.assets/iTerm2-download.png)
 
 ###### zip文件下载到了用户的下载目录，双击解压zip文件会在该目录出现macOS可执行文件iTerm.app，再将iTerm.app拖拽到用户的应用程序目录，这样就完成了iTerm2的安装
-![iterm2-zip](p0-5-cli.assets/iterm2-zip.png)
-![iterm2-software](p0-5-cli.assets/iterm2-software.png)
+![iterm2-zip](./p0-4-cli.assets/iterm2-zip.png)
+![iterm2-software](./p0-4-cli.assets/iterm2-software.png)
 
 ###### 在macOS按⌘command+空格 键调出Spotlight，输入iTerm即可打开iTerm.app
-![open-iterm2](p0-5-cli.assets/open-iterm2.png)
-![iterm2-window](p0-5-cli.assets/iterm2-window.png)
+![open-iterm2](./p0-4-cli.assets/open-iterm2.png)
+![iterm2-window](./p0-4-cli.assets/iterm2-window.png)
 
 ##### Oh My Zsh的安装配置(可选)
 
@@ -167,9 +167,9 @@ Oh My Zsh 是在macOS系统平台上，用于管理Zsh配置的框架，它提�
 
 在iTerm2终端上输入sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-![install-ohmyzsh](p0-5-cli.assets/install-ohmyzsh.png)
+![install-ohmyzsh](./p0-4-cli.assets/install-ohmyzsh.png)
 
 ###### 安装完成后，你想修改Oh My Zsh的配置，可以修改~/.zshrc文件，添加你需要的插件，主题等。在这里我把~/.zshrc文件里的ZSH_THEME改为ys主题，这个主题会展示更多命令信息，比如当前目录是什么，git的状态，时间等
-![zshrc](p0-5-cli.assets/zshrc.png)
-![ohmyzsh-theme-ys](p0-5-cli.assets/ohmyzsh-theme-ys.png)
+![zshrc](./p0-4-cli.assets/zshrc.png)
+![ohmyzsh-theme-ys](./p0-4-cli.assets/ohmyzsh-theme-ys.png)
 

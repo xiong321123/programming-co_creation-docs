@@ -3,7 +3,7 @@ title: 介绍
 sidebar_position: 1
 ---
 ## 快速入口
-[文档库](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro/) | [仓库](https://github.com/coding-newbies-group/programming-co_creation-docs) | [Github Issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues) | [共学共创进度表](https://docs.qq.com/sheet/DYkdIT0hKbW1tWmhE?tab=BB08J2) | [项目看板](https://github.com/orgs/coding-newbies-group/projects/1) | [常见问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/qa)
+[文档库](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro/) | [仓库](https://github.com/coding-newbies-group/programming-co_creation-docs) | [Github Issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues) | [贡献统计表](https://docs.qq.com/sheet/DYmdOeXZCUUlIaWhS?tab=BB08J2) | [共学共创进度表](https://docs.qq.com/sheet/DYkdIT0hKbW1tWmhE?tab=BB08J2) | [项目看板](https://github.com/orgs/coding-newbies-group/projects/1) | [人才盘点表](https://docs.qq.com/sheet/DYlhBdkJwQ3lWY1hv?tab=BB08J2) | [常见问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/qa)
 
 ## 协作流程
 
@@ -15,8 +15,8 @@ sidebar_position: 1
 - 0-1.[前期准备](./p0/p0-1-prep.md)
 - 0-2.[通过Github提交问题](./p0/p0-2-issues.md) | [视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 0-3.[Markdown超简教程](./p0/p0-3-markdown.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-4.[通过Github共创](./p0/p0-4-collaborate.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-5.[使用命令行](./p0/p0-5-cli.md) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-4.[使用命令行](./p0/p0-4-cli.md) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-5.[通过Github共创](./p0/p0-5-collaborate.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 0-6.[第一段Python代码](./p0/p0-6-python.md)
 
 
